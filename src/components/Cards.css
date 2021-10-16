@@ -1,0 +1,274 @@
+/********** banner style ************/
+
+
+.details .title a{
+    text-decoration: none;
+    color: #666666;
+}
+
+.thumb a{
+    text-decoration: none;
+    background-color: #097bed;
+    border-radius: 5px;
+    padding: 2px 12px;
+    color: #fff;
+}
+
+.thumb a:hover{
+    background-color: #ec7322;
+    transition: 0.7s;
+}
+.details .title a:hover{
+    color: #097bed;
+    transition: 0.5s;
+
+}
+  /*---------------------------------------
+      ## Single Post Wrap
+  ---------------------------------------*/
+  .add-area img {
+    width: 100%;
+  }
+  
+  .single-post-wrap {
+    position: relative;
+    margin-bottom: 30px;
+    transition: 0.4s;
+  }
+  .single-post-wrap .thumb {
+    position: relative;
+    margin-bottom: 27px;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .single-post-wrap .thumb img {
+    transition: 0.8s;
+    transform: scale(1.01);
+  }
+  .single-post-wrap .thumb .tag-base {
+    position: absolute;
+    left: 17px;
+    top: 19px;
+    z-index: 3;
+  }
+  .single-post-wrap .thumb .btn-date {
+    position: absolute;
+    left: 17px;
+    bottom: 19px;
+    z-index: 3;
+    height: 40px;
+    line-height: 41px;
+    padding: 0 22px;
+    display: inline-block;
+    border-radius: 40px;
+    background: #fff;
+    color: var(--heading-color);
+    margin-bottom: 0;
+  }
+  .single-post-wrap .thumb .btn-date i {
+    margin-right: 5px;
+  }
+  .single-post-wrap .thumb .play-btn-large {
+    position: absolute;
+    left: 50%;
+    margin-left: -40px;
+    top: 50%;
+    margin-top: -40px;
+    z-index: 5;
+  }
+  .single-post-wrap .thumb .play-btn-medium {
+    position: absolute;
+    left: 50%;
+    margin-left: -32px;
+    top: 50%;
+    margin-top: -32px;
+    z-index: 5;
+    opacity: 0.8;
+  }
+  .single-post-wrap .thumb .play-btn-small {
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    top: 50%;
+    margin-top: -20px;
+    z-index: 5;
+  }
+  .single-post-wrap .details .title {
+    margin-bottom: 0;
+  }
+  .single-post-wrap .details p {
+    margin-bottom: 0;
+    margin-top: 16px;
+    color: var(--heading-color);
+  }
+  .single-post-wrap .details .btn {
+    padding: 0 17px;
+    height: 44px;
+    line-height: 44px;
+    font-weight: 400;
+  }
+  .single-post-wrap .spw-bottom {
+    border-top: 1px solid #e0e0e0;
+    margin-top: 15px;
+    padding-top: 18px;
+  }
+  .single-post-wrap .spw-bottom ul {
+    margin: 0;
+    padding: 0;
+  }
+  .single-post-wrap .spw-bottom ul li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  .single-post-wrap .spw-bottom ul li:first-child {
+    margin-left: 0;
+  }
+  .single-post-wrap .spw-bottom ul li:last-child {
+    margin-right: 0;
+  }
+  .single-post-wrap .spw-bottom ul li p {
+    font-size: 14px;
+    margin-top: 0;
+  }
+  .single-post-wrap .spw-bottom .media .media-left {
+    margin-right: 10px;
+  }
+  .single-post-wrap .spw-bottom .media .media-left img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+  .single-post-wrap .spw-bottom .media .media-body p {
+    margin: 0;
+  }
+  .single-post-wrap:hover .thumb img {
+    transform: scale(1.06);
+  }
+  .single-post-wrap.style-white .post-meta-single p,
+  .single-post-wrap.style-white .post-meta-single li {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .single-post-wrap.style-white .details .title {
+    color: #fff;
+  }
+  .single-post-wrap.style-white .details p {
+    color: #fff;
+  }
+  .single-post-wrap.style-overlay .thumb {
+    margin-bottom: 0;
+  }
+  .single-post-wrap.style-overlay .thumb img {
+    min-height: 119px;
+  }
+  .single-post-wrap.style-overlay .thumb:after {
+    content: "";
+    background: linear-gradient(to top, rgba(32, 22, 84, 0.6) 52%, rgba(0, 0, 100, 0));
+    height: 70%;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+    width: 100%;
+    z-index: 3;
+    transition: 0.4s;
+  }
+  .single-post-wrap.style-overlay .thumb:before {
+    content: "";
+    background: linear-gradient(to top, rgba(32, 22, 84, 0.38) 52%, rgba(0, 0, 100, 0));
+    height: 75%;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+    width: 100%;
+    z-index: 4;
+    transition: 0.4s;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .single-post-wrap.style-overlay .details {
+    position: absolute;
+    bottom: 0;
+    padding: 18px 20px;
+    z-index: 4;
+  }
+  .single-post-wrap.style-overlay .details .title {
+    color: #fff;
+  }
+  .single-post-wrap.style-overlay .details .title:hover a {
+    color: #ffbe00;
+  }
+  .single-post-wrap.style-overlay .details p {
+    color: #fff;
+  }
+  .single-post-wrap.style-overlay .post-meta-single {
+    margin-bottom: 8px;
+  }
+  .single-post-wrap.style-overlay .post-meta-single p {
+    margin-bottom: 10px;
+  }
+  .single-post-wrap.style-overlay .post-meta-single li {
+    color: #fff;
+  }
+  .single-post-wrap.style-overlay:hover .thumb:before {
+    visibility: visible;
+    opacity: 1;
+  }
+  .single-post-wrap.style-overlay-bg .thumb {
+    margin-bottom: 0;
+  }
+  .single-post-wrap.style-overlay-bg .thumb:after {
+    content: "";
+    background: linear-gradient(to top, rgba(32, 22, 84, 0.3) 52%, rgba(0, 0, 100, 0));
+    height: 70%;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+    width: 100%;
+    z-index: 3;
+    transition: 0.4s;
+  }
+  .single-post-wrap.style-overlay-bg .thumb:before {
+    content: "";
+    background: linear-gradient(to top, rgba(32, 22, 84, 0.38) 52%, rgba(0, 0, 100, 0));
+    height: 75%;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+    width: 100%;
+    z-index: 4;
+    transition: 0.4s;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .single-post-wrap.style-overlay-bg .details {
+    position: absolute;
+    bottom: 0;
+    padding: 18px 18px;
+    z-index: 4;
+    margin: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+  }
+  .single-post-wrap.style-overlay-bg:hover .thumb:before {
+    visibility: visible;
+    opacity: 1;
+  }
+  .single-post-wrap.style-box {
+    border-radius: 5px;
+    overflow: hidden;
+    background: #fafafa;
+  }
+  .single-post-wrap.style-box .thumb {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  .single-post-wrap.style-box .details {
+    padding: 25px;
+  }
+  .single-post-wrap.style-box:hover {
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.09);
+  }
+
