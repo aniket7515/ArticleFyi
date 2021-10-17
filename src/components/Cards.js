@@ -1,7 +1,7 @@
 import React from 'react'
-import bread from "../img/f14.png"
+
 import '../components/Cards.css'
-const Cards = ({text,Images}) => {
+const Cards = ({text,Images,Tag}) => {
     return (
         <div>
             
@@ -9,7 +9,7 @@ const Cards = ({text,Images}) => {
               <div className="single-post-wrap style-white">
                     <div className="thumb">
                         <img src={Images} alt="img"/>
-                        <a className="tag-base tag-blue" href="#">Tech</a>
+                        <a className="tag-base tag-blue" href="#">{Tag}</a>
                     </div>
                     <div className="details">
                         <h6 className="title"><a href="#">{text}</a></h6>
